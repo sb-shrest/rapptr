@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorControlHighlight">#F9F9F9</item>
+        <item name="android:colorControlNormal">@color/line</item>
+        <item name="android:colorControlActivated">@color/button_blue</item>
+    </style>
+
+    <style name="NoBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorControlHighlight">#F9F9F9</item>
+        <item name="android:colorControlNormal">@color/line</item>
+        <item name="android:colorControlActivated">@color/button_blue</item>
+    </style>
+
+    <style name="ButtonLayout">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">24dp</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/ripple</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/chat_text</item>
+    </style>
+
+    <style name="ButtonIcon">
+        <item name="android:layout_marginStart">22dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_width">24dp</item>
+    </style>
+
+    <style name="LoginLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:background">@color/login_background</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/chat_text</item>
+        <item name="android:textColorHint">@color/hint_text</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+    </style>
+
+    <style name="Username" parent="Input">
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <style name="Password" parent="Input">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="Recycler">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Holder">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">21dp</item>
+    </style>
+
+    <style name="ChatIcon">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="MessageLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginStart">7dp</item>
+    </style>
+
+    <style name="ChatUser">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/chat_text</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="Message">
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/chat_text</item>
+        <item name="android:background">@drawable/bubble</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:textColor">@color/white_text</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Button" parent="Header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:background">@drawable/blue_ripple</item>
+    </style>
+
+    <style name="LoginButton" parent="Button">
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:layout_marginEnd">26dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+    <style name="Animation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">100dp</item>
+        <item name="android:layout_marginStart">23dp</item>
+        <item name="android:layout_marginEnd">22dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="AnimButton" parent="Button">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginStart">30dp</item>
+        <item name="android:layout_marginEnd">30dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+</resources>

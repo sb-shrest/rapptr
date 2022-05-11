@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:background="?android:selectableItemBackground"
+              android:clickable="true"
+              tools:background="@color/background"
+              tools:ignore="UseCompoundDrawables"
+    style="@style/Holder">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatarImageView"
+        style="@style/ChatIcon"
+        android:src="@drawable/ic_avatar_placeholder"
+        tools:ignore="RtlHardcoded" />
+    
+    <LinearLayout
+        style="@style/MessageLayout">
+
+        <TextView
+            android:id="@+id/usernameView"
+            style="@style/ChatUser"/>
+
+
+        <TextView
+            android:id="@+id/messageTextView"
+            style="@style/Message"/>
+
+    </LinearLayout>
+
+</LinearLayout>

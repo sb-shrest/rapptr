@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gpc_sunset"
+    tools:context=".login.LoginActivity">
+
+    <LinearLayout
+        style="@style/LoginLayout">
+
+        <EditText
+            style="@style/Username"
+            android:id="@+id/email_field"
+            android:hint="@string/username"/>
+
+        <EditText
+            style="@style/Password"
+            android:id="@+id/pass_field"
+            android:hint="@string/password"/>
+
+        <TextView
+            style="@style/LoginButton"
+            android:id="@+id/login_btn"
+            android:text="@string/login_button"/>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

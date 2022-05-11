@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gpc_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="?attr/actionBarSize"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/chat_lyt"
+            android:onClick="onChatClicked"
+            style="@style/ButtonLayout">
+
+            <ImageView
+                style="@style/ButtonIcon"
+                android:src="@drawable/ic_chat"/>
+
+            <TextView
+                style="@style/ButtonText"
+                android:text="@string/chat_button"
+                android:textSize="@dimen/button_text_size" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/login_lyt"
+            android:onClick="onLoginClicked"
+            style="@style/ButtonLayout">
+
+            <ImageView
+                style="@style/ButtonIcon"
+                android:src="@drawable/ic_lock"/>
+
+            <TextView
+                style="@style/ButtonText"
+                android:text="@string/login_button"
+                android:textSize="@dimen/button_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/animation_lyt"
+            android:onClick="onAnimationClicked"
+            style="@style/ButtonLayout">
+
+            <ImageView
+                style="@style/ButtonIcon"
+                android:src="@drawable/ic_animation"/>
+
+            <TextView
+                style="@style/ButtonText"
+                android:text="@string/animation_button"
+                android:textSize="@dimen/button_text_size" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
